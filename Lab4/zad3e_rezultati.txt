@@ -1,0 +1,24 @@
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 1.822
+Mean Loss in Epoch 0: 1.404
+Computing mean representations for evaluation...
+Evaluating on training set...
+Epoch 0: Train Top1 Acc: 78.2%
+Epoch time (sec): 58.8
+Epoch: 1
+Iter: 0, Mean Loss: 0.918
+Mean Loss in Epoch 1: 0.738
+Computing mean representations for evaluation...
+Evaluating on training set...
+Epoch 1: Train Top1 Acc: 74.8%
+Epoch time (sec): 51.0
+Epoch: 2
+Iter: 0, Mean Loss: 0.837
+Mean Loss in Epoch 2: 0.568
+Computing mean representations for evaluation...
+Evaluating on training set...
+Epoch 2: Train Top1 Acc: 76.2%
+Epoch time (sec): 60.4

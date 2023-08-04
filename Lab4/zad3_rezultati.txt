@@ -1,0 +1,344 @@
+Margin = 2
+
+
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 1.749
+Iter: 100, Mean Loss: 0.729
+Iter: 200, Mean Loss: 0.505
+Iter: 300, Mean Loss: 0.400
+Iter: 400, Mean Loss: 0.335
+Iter: 500, Mean Loss: 0.293
+Iter: 600, Mean Loss: 0.262
+Iter: 700, Mean Loss: 0.238
+Iter: 800, Mean Loss: 0.220
+Iter: 900, Mean Loss: 0.206
+Mean Loss in Epoch 0: 0.201
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 0: Test Accuracy: 88.78%
+Epoch time (sec): 148.6
+Epoch: 1
+Iter: 0, Mean Loss: 0.128
+Iter: 100, Mean Loss: 0.080
+Iter: 200, Mean Loss: 0.076
+Iter: 300, Mean Loss: 0.076
+Iter: 400, Mean Loss: 0.074
+Iter: 500, Mean Loss: 0.074
+Iter: 600, Mean Loss: 0.073
+Iter: 700, Mean Loss: 0.071
+Iter: 800, Mean Loss: 0.070
+Iter: 900, Mean Loss: 0.068
+Mean Loss in Epoch 1: 0.068
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 1: Test Accuracy: 86.67%
+Epoch time (sec): 151.4
+Epoch: 2
+Iter: 0, Mean Loss: 0.035
+Iter: 100, Mean Loss: 0.055
+Iter: 200, Mean Loss: 0.055
+Iter: 300, Mean Loss: 0.055
+Iter: 400, Mean Loss: 0.053
+Iter: 500, Mean Loss: 0.052
+Iter: 600, Mean Loss: 0.052
+Iter: 700, Mean Loss: 0.051
+Iter: 800, Mean Loss: 0.050
+Iter: 900, Mean Loss: 0.050
+Mean Loss in Epoch 2: 0.050
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 2: Test Accuracy: 89.04%
+Epoch time (sec): 150.2
+
+
+ceil_mode = True
+
+
+
+
+
+
+
+
+ceil_mode = False
+
+
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 1.675
+Iter: 100, Mean Loss: 0.625
+Iter: 200, Mean Loss: 0.441
+Iter: 300, Mean Loss: 0.350
+Iter: 400, Mean Loss: 0.295
+Iter: 500, Mean Loss: 0.261
+Iter: 600, Mean Loss: 0.232
+Iter: 700, Mean Loss: 0.213
+Iter: 800, Mean Loss: 0.197
+Iter: 900, Mean Loss: 0.184
+Mean Loss in Epoch 0: 0.180
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 0: Test Accuracy: 92.31%
+Epoch time (sec): 146.5
+Epoch: 1
+Iter: 0, Mean Loss: 0.031
+Iter: 100, Mean Loss: 0.078
+Iter: 200, Mean Loss: 0.076
+Iter: 300, Mean Loss: 0.075
+Iter: 400, Mean Loss: 0.075
+Iter: 500, Mean Loss: 0.074
+Iter: 600, Mean Loss: 0.072
+Iter: 700, Mean Loss: 0.070
+Iter: 800, Mean Loss: 0.069
+Iter: 900, Mean Loss: 0.067
+Mean Loss in Epoch 1: 0.066
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 1: Test Accuracy: 88.06%
+Epoch time (sec): 174.8
+Epoch: 2
+Iter: 0, Mean Loss: 0.031
+Iter: 100, Mean Loss: 0.059
+Iter: 200, Mean Loss: 0.058
+Iter: 300, Mean Loss: 0.056
+Iter: 400, Mean Loss: 0.055
+Iter: 500, Mean Loss: 0.055
+Iter: 600, Mean Loss: 0.055
+Iter: 700, Mean Loss: 0.054
+Iter: 800, Mean Loss: 0.053
+Iter: 900, Mean Loss: 0.053
+Mean Loss in Epoch 2: 0.053
+Computing mean representations for evaluation...
+Epoch 2: Test Accuracy: 87.93%
+
+
+
+
+
+
+
+Margin = 1
+
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 0.860
+Iter: 100, Mean Loss: 0.226
+Iter: 200, Mean Loss: 0.157
+Iter: 300, Mean Loss: 0.127
+Iter: 400, Mean Loss: 0.108
+Iter: 500, Mean Loss: 0.096
+Iter: 600, Mean Loss: 0.087
+Iter: 700, Mean Loss: 0.080
+Iter: 800, Mean Loss: 0.074
+Iter: 900, Mean Loss: 0.070
+Mean Loss in Epoch 0: 0.068
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 0: Test Accuracy: 92.70%
+Epoch time (sec): 179.4
+Epoch: 1
+Iter: 0, Mean Loss: 0.000
+Iter: 100, Mean Loss: 0.032
+Iter: 200, Mean Loss: 0.030
+Iter: 300, Mean Loss: 0.030
+Iter: 400, Mean Loss: 0.030
+Iter: 500, Mean Loss: 0.029
+Iter: 600, Mean Loss: 0.030
+Iter: 700, Mean Loss: 0.030
+Iter: 800, Mean Loss: 0.030
+Iter: 900, Mean Loss: 0.030
+Mean Loss in Epoch 1: 0.029
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 1: Test Accuracy: 90.72%
+Epoch time (sec): 153.8
+Epoch: 2
+Iter: 0, Mean Loss: 0.008
+Iter: 100, Mean Loss: 0.025
+Iter: 200, Mean Loss: 0.027
+Iter: 300, Mean Loss: 0.026
+Iter: 400, Mean Loss: 0.026
+Iter: 500, Mean Loss: 0.025
+Iter: 600, Mean Loss: 0.025
+Iter: 700, Mean Loss: 0.025
+Iter: 800, Mean Loss: 0.025
+Iter: 900, Mean Loss: 0.025
+Mean Loss in Epoch 2: 0.025
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 2: Test Accuracy: 92.61%
+Epoch time (sec): 197.7
+
+
+
+Conv, relu, batchnorm
+
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 0.872
+Iter: 100, Mean Loss: 0.229
+Iter: 200, Mean Loss: 0.164
+Iter: 300, Mean Loss: 0.132
+Iter: 400, Mean Loss: 0.114
+Iter: 500, Mean Loss: 0.101
+Iter: 600, Mean Loss: 0.092
+Iter: 700, Mean Loss: 0.085
+Iter: 800, Mean Loss: 0.079
+Iter: 900, Mean Loss: 0.075
+Mean Loss in Epoch 0: 0.073
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 0: Test Accuracy: 96.90%
+Epoch time (sec): 242.6
+Epoch: 1
+Iter: 0, Mean Loss: 0.046
+Iter: 100, Mean Loss: 0.031
+Iter: 200, Mean Loss: 0.032
+Iter: 300, Mean Loss: 0.032
+Iter: 400, Mean Loss: 0.032
+Iter: 500, Mean Loss: 0.031
+Iter: 600, Mean Loss: 0.030
+Iter: 700, Mean Loss: 0.030
+Iter: 800, Mean Loss: 0.030
+Iter: 900, Mean Loss: 0.029
+Mean Loss in Epoch 1: 0.029
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 1: Test Accuracy: 97.63%
+Epoch time (sec): 234.3
+Epoch: 2
+Iter: 0, Mean Loss: 0.008
+Iter: 100, Mean Loss: 0.024
+Iter: 200, Mean Loss: 0.024
+Iter: 300, Mean Loss: 0.023
+Iter: 400, Mean Loss: 0.023
+Iter: 500, Mean Loss: 0.023
+Iter: 600, Mean Loss: 0.023
+Iter: 700, Mean Loss: 0.023
+Iter: 800, Mean Loss: 0.023
+Iter: 900, Mean Loss: 0.023
+Mean Loss in Epoch 2: 0.023
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 2: Test Accuracy: 98.23%
+Epoch time (sec): 231.5
+
+
+
+cnr, margin=2
+
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 1.642
+Iter: 100, Mean Loss: 0.549
+Iter: 200, Mean Loss: 0.385
+Iter: 300, Mean Loss: 0.315
+Iter: 400, Mean Loss: 0.269
+Iter: 500, Mean Loss: 0.239
+Iter: 600, Mean Loss: 0.216
+Iter: 700, Mean Loss: 0.198
+Iter: 800, Mean Loss: 0.184
+Iter: 900, Mean Loss: 0.173
+Mean Loss in Epoch 0: 0.169
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 0: Test Accuracy: 97.34%
+Epoch time (sec): 237.3
+Epoch: 1
+Iter: 0, Mean Loss: 0.027
+Iter: 100, Mean Loss: 0.074
+Iter: 200, Mean Loss: 0.074
+Iter: 300, Mean Loss: 0.072
+Iter: 400, Mean Loss: 0.070
+Iter: 500, Mean Loss: 0.067
+Iter: 600, Mean Loss: 0.066
+Iter: 700, Mean Loss: 0.064
+Iter: 800, Mean Loss: 0.063
+Iter: 900, Mean Loss: 0.062
+Mean Loss in Epoch 1: 0.062
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 1: Test Accuracy: 97.92%
+Epoch time (sec): 235.2
+Epoch: 2
+Iter: 0, Mean Loss: 0.075
+Iter: 100, Mean Loss: 0.051
+Iter: 200, Mean Loss: 0.047
+Iter: 300, Mean Loss: 0.049
+Iter: 400, Mean Loss: 0.049
+Iter: 500, Mean Loss: 0.049
+Iter: 600, Mean Loss: 0.047
+Iter: 700, Mean Loss: 0.048
+Iter: 800, Mean Loss: 0.048
+Iter: 900, Mean Loss: 0.048
+Mean Loss in Epoch 2: 0.047
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 2: Test Accuracy: 98.09%
+Epoch time (sec): 237.7
+
+
+cnb, margin=3
+
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 3.025
+Iter: 100, Mean Loss: 1.052
+Iter: 200, Mean Loss: 0.752
+Iter: 300, Mean Loss: 0.599
+Iter: 400, Mean Loss: 0.511
+Iter: 500, Mean Loss: 0.446
+Iter: 600, Mean Loss: 0.404
+Iter: 700, Mean Loss: 0.370
+Iter: 800, Mean Loss: 0.341
+Iter: 900, Mean Loss: 0.318
+Mean Loss in Epoch 0: 0.310
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 0: Test Accuracy: 97.67%
+Epoch time (sec): 238.5
+Epoch: 1
+Iter: 0, Mean Loss: 0.069
+Iter: 100, Mean Loss: 0.119
+Iter: 200, Mean Loss: 0.111
+Iter: 300, Mean Loss: 0.109
+Iter: 400, Mean Loss: 0.107
+Iter: 500, Mean Loss: 0.106
+Iter: 600, Mean Loss: 0.105
+Iter: 700, Mean Loss: 0.103
+Iter: 800, Mean Loss: 0.101
+Iter: 900, Mean Loss: 0.099
+Mean Loss in Epoch 1: 0.099
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 1: Test Accuracy: 97.84%
+Epoch time (sec): 238.8
+Epoch: 2
+Iter: 0, Mean Loss: 0.108
+Iter: 100, Mean Loss: 0.087
+Iter: 200, Mean Loss: 0.084
+Iter: 300, Mean Loss: 0.086
+Iter: 400, Mean Loss: 0.085
+Iter: 500, Mean Loss: 0.085
+Iter: 600, Mean Loss: 0.084
+Iter: 700, Mean Loss: 0.084
+Iter: 800, Mean Loss: 0.083
+Iter: 900, Mean Loss: 0.082
+Mean Loss in Epoch 2: 0.081
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 2: Test Accuracy: 98.26%
+Epoch time (sec): 239.1

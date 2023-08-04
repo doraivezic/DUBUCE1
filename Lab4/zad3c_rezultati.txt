@@ -1,0 +1,4 @@
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Traineval Top1 Acc: 81.36%

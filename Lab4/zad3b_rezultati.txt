@@ -1,0 +1,27 @@
+train 1000 slika
+val 500 slika
+
+= Using device cpu
+> Loaded 60000 training images!
+> Loaded 10000 validation images!
+Epoch: 0
+Iter: 0, Mean Loss: 1.686
+Mean Loss in Epoch 0: 1.168
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 0: Test Accuracy: 78.19%
+Epoch time (sec): 761.3
+Epoch: 1
+Iter: 0, Mean Loss: 0.654
+Mean Loss in Epoch 1: 0.677
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 1: Test Accuracy: 78.44%
+Epoch time (sec): 38.8
+Epoch: 2
+Iter: 0, Mean Loss: 0.667
+Mean Loss in Epoch 2: 0.512
+Computing mean representations for evaluation...
+Evaluating on test set...
+Epoch 2: Test Accuracy: 82.32%
+Epoch time (sec): 37.3
