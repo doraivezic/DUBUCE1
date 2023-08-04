@@ -1,0 +1,245 @@
+SEED = 7052020
+
+
+MODEL VANILLA RNN
+
+Epoch 1 : accuracy 1.0, F1-score 1.0, confusion matrix [[ 4  0]
+ [ 0 25]]
+Epoch 2 : accuracy 0.9655172413793104, F1-score 0.9803921568627451, confusion matrix [[ 3  1]
+ [ 0 25]]
+Epoch 3 : accuracy 0.9655172413793104, F1-score 0.9803921568627451, confusion matrix [[ 3  1]
+ [ 0 25]]
+Epoch 4 : accuracy 0.896551724137931, F1-score 0.9387755102040817, confusion matrix [[ 3  1]
+ [ 2 23]]
+Epoch 5 : accuracy 0.9310344827586207, F1-score 0.9615384615384615, confusion matrix [[ 2  2]
+ [ 0 25]]
+Test dataset : accuracy 0.75, F1-score 0.8571428571428571, confusion matrix [[0 0]
+ [2 6]]
+
+MODEL GRU
+
+Epoch 1 : accuracy 0.6206896551724138, F1-score 0.7317073170731707, confusion matrix [[ 3  1]
+ [10 15]]
+Epoch 2 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 3 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 4 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 5 : accuracy 0.9310344827586207, F1-score 0.96, confusion matrix [[ 3  1]
+ [ 1 24]]
+Test dataset : accuracy 0.875, F1-score 0.9333333333333333, confusion matrix [[0 0]
+ [1 7]]
+
+MODEL LSTM
+
+Epoch 1 : accuracy 0.9310344827586207, F1-score 0.96, confusion matrix [[ 3  1]
+ [ 1 24]]
+Epoch 2 : accuracy 0.8275862068965517, F1-score 0.8936170212765958, confusion matrix [[ 3  1]
+ [ 4 21]]
+Epoch 3 : accuracy 0.896551724137931, F1-score 0.9387755102040817, confusion matrix [[ 3  1]
+ [ 2 23]]
+Epoch 4 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 5 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, confusion matrix [[ 3  1]
+ [ 3 22]]
+Test dataset : accuracy 0.625, F1-score 0.7692307692307693, confusion matrix [[0 0]
+ [3 5]]
+
+
+
+
+SEED = 1
+
+MODEL VANILLA RNN
+
+Epoch 1 : accuracy 0.13793103448275862, F1-score 0.0, confusion matrix [[ 4  0]
+ [25  0]]
+Epoch 2 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 3 : accuracy 0.6896551724137931, F1-score 0.7906976744186047, confusion matrix [[ 3  1]
+ [ 8 17]]
+Epoch 4 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, confusion matrix [[ 3  1]
+ [ 5 20]]
+Epoch 5 : accuracy 0.8275862068965517, F1-score 0.8936170212765958, confusion matrix [[ 3  1]
+ [ 4 21]]
+Test dataset : accuracy 0.75, F1-score 0.8571428571428571, confusion matrix [[0 0]
+ [2 6]]
+
+MODEL GRU
+
+Epoch 1 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, confusion matrix [[ 3  1]
+ [ 7 18]]
+Epoch 2 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, confusion matrix [[ 3  1]
+ [ 7 18]]
+Epoch 3 : accuracy 0.6896551724137931, F1-score 0.7906976744186047, confusion matrix [[ 3  1]
+ [ 8 17]]
+Epoch 4 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, confusion matrix [[ 3  1]
+ [ 7 18]]
+Epoch 5 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, confusion matrix [[ 3  1]
+ [ 7 18]]
+Test dataset : accuracy 0.75, F1-score 0.8571428571428571, confusion matrix [[0 0]
+ [2 6]]
+
+MODEL LSTM
+
+Epoch 1 : accuracy 0.6896551724137931, F1-score 0.7906976744186047, confusion matrix [[ 3  1]
+ [ 8 17]]
+Epoch 2 : accuracy 0.6206896551724138, F1-score 0.7317073170731707, confusion matrix [[ 3  1]
+ [10 15]]
+Epoch 3 : accuracy 0.6896551724137931, F1-score 0.7906976744186047, confusion matrix [[ 3  1]
+ [ 8 17]]
+Epoch 4 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, confusion matrix [[ 3  1]
+ [ 7 18]]
+Epoch 5 : accuracy 0.6896551724137931, F1-score 0.7906976744186047, confusion matrix [[ 3  1]
+ [ 8 17]]
+Test dataset : accuracy 0.75, F1-score 0.8571428571428571, confusion matrix [[0 0]
+ [2 6]]
+
+
+
+SEED = 500
+
+
+MODEL VANILLA RNN
+
+Epoch 1 : accuracy 0.13793103448275862, F1-score 0.0, confusion matrix [[ 4  0]
+ [25  0]]
+Epoch 2 : accuracy 0.8275862068965517, F1-score 0.8936170212765958, confusion matrix [[ 3  1]
+ [ 4 21]]
+Epoch 3 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, confusion matrix [[ 3  1]
+ [ 5 20]]
+Epoch 4 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, confusion matrix [[ 3  1]
+ [ 5 20]]
+Epoch 5 : accuracy 0.896551724137931, F1-score 0.9387755102040817, confusion matrix [[ 3  1]
+ [ 2 23]]
+Test dataset : accuracy 0.875, F1-score 0.9333333333333333, confusion matrix [[0 0]
+ [1 7]]
+
+MODEL GRU
+
+Epoch 1 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, confusion matrix [[ 3  1]
+ [ 5 20]]
+Epoch 2 : accuracy 0.9310344827586207, F1-score 0.96, confusion matrix [[ 3  1]
+ [ 1 24]]
+Epoch 3 : accuracy 0.896551724137931, F1-score 0.9387755102040817, confusion matrix [[ 3  1]
+ [ 2 23]]
+Epoch 4 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 5 : accuracy 0.896551724137931, F1-score 0.9387755102040817, confusion matrix [[ 3  1]
+ [ 2 23]]
+Test dataset : accuracy 0.875, F1-score 0.9333333333333333, confusion matrix [[0 0]
+ [1 7]]
+
+MODEL LSTM
+
+Epoch 1 : accuracy 0.6206896551724138, F1-score 0.7441860465116279, confusion matrix [[ 2  2]
+ [ 9 16]]
+Epoch 2 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, confusion matrix [[ 3  1]
+ [ 7 18]]
+Epoch 3 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, confusion matrix [[ 3  1]
+ [ 5 20]]
+Epoch 4 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, confusion matrix [[ 3  1]
+ [ 6 19]]
+Epoch 5 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, confusion matrix [[ 3  1]
+ [ 5 20]]
+Test dataset : accuracy 0.875, F1-score 0.9333333333333333, confusion matrix [[0 0]
+ [1 7]]
+
+
+SEED = 1000
+
+MODEL VANILLA RNN
+
+Epoch 1 : accuracy 0.13793103448275862, F1-score 0.0, cost 39.29064530134201, confusion matrix [[ 4  0]
+ [25  0]]
+Epoch 2 : accuracy 0.5862068965517241, F1-score 0.7000000000000001, cost 36.2194459438324, confusion matrix [[ 3  1]
+ [11 14]]
+Epoch 3 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 31.077687799930573, confusion matrix [[ 3  1]
+ [ 6 19]]
+Epoch 4 : accuracy 0.5862068965517241, F1-score 0.7000000000000001, cost 39.75055368989706, confusion matrix [[ 3  1]
+ [11 14]]
+Epoch 5 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 30.705172657966614, confusion matrix [[ 3  1]
+ [ 6 19]]
+Test dataset : accuracy 0.75, F1-score 0.8571428571428571, cost 15.582132339477539, confusion matrix [[0 0]
+ [2 6]]
+
+MODEL GRU
+
+Epoch 1 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 32.54843512177467, confusion matrix [[ 3  1]
+ [ 6 19]]
+Epoch 2 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 27.81455233693123, confusion matrix [[ 3  1]
+ [ 6 19]]
+Epoch 3 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, cost 26.632608383893967, confusion matrix [[ 3  1]
+ [ 5 20]]
+Epoch 4 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, cost 28.32692749798298, confusion matrix [[ 3  1]
+ [ 7 18]]
+Epoch 5 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, cost 28.089815214276314, confusion matrix [[ 3  1]
+ [ 7 18]]
+Test dataset : accuracy 0.625, F1-score 0.7692307692307693, cost 14.425607338547707, confusion matrix [[0 0]
+ [3 5]]
+
+MODEL LSTM
+
+Epoch 1 : accuracy 0.6551724137931034, F1-score 0.7727272727272727, cost 34.103286027908325, confusion matrix [[ 2  2]
+ [ 8 17]]
+Epoch 2 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 32.51763078570366, confusion matrix [[ 3  1]
+ [ 6 19]]
+Epoch 3 : accuracy 0.6896551724137931, F1-score 0.7906976744186047, cost 30.62067373096943, confusion matrix [[ 3  1]
+ [ 8 17]]
+Epoch 4 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 30.667451828718185, confusion matrix [[ 3  1]
+ [ 6 19]]
+Epoch 5 : accuracy 0.7241379310344828, F1-score 0.8181818181818181, cost 30.154083743691444, confusion matrix [[ 3  1]
+ [ 7 18]]
+Test dataset : accuracy 0.625, F1-score 0.7692307692307693, cost 15.131907507777214, confusion matrix [[0 0]
+ [3 5]]
+
+
+
+SEED = 123
+
+MODEL VANILLA RNN
+
+Epoch 1 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, cost 34.44564828276634, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 2 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 29.44848343729973, confusion matrix [[ 3  1]
+ [ 6 19]]
+Epoch 3 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, cost 29.39942866563797, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 4 : accuracy 0.896551724137931, F1-score 0.9387755102040817, cost 29.872161716222763, confusion matrix [[ 3  1]
+ [ 2 23]]
+Epoch 5 : accuracy 0.7586206896551724, F1-score 0.8444444444444444, cost 32.16232246160507, confusion matrix [[ 3  1]
+ [ 6 19]]
+Test dataset : accuracy 0.75, F1-score 0.8571428571428571, cost 15.708215698599815, confusion matrix [[0 0]
+ [2 6]]
+
+MODEL GRU
+
+Epoch 1 : accuracy 0.7241379310344828, F1-score 0.8260869565217391, cost 35.56644967198372, confusion matrix [[ 2  2]
+ [ 6 19]]
+Epoch 2 : accuracy 0.9310344827586207, F1-score 0.96, cost 29.790175393223763, confusion matrix [[ 3  1]
+ [ 1 24]]
+Epoch 3 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, cost 25.633295118808746, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 4 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, cost 26.688604399561882, confusion matrix [[ 3  1]
+ [ 5 20]]
+Epoch 5 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, cost 25.293549299240112, confusion matrix [[ 3  1]
+ [ 3 22]]
+Test dataset : accuracy 0.625, F1-score 0.7692307692307693, cost 12.911302387714386, confusion matrix [[0 0]
+ [3 5]]
+
+MODEL LSTM
+
+Epoch 1 : accuracy 0.896551724137931, F1-score 0.9387755102040817, cost 33.51203256845474, confusion matrix [[ 3  1]
+ [ 2 23]]
+Epoch 2 : accuracy 0.8620689655172413, F1-score 0.9166666666666666, cost 25.97331002354622, confusion matrix [[ 3  1]
+ [ 3 22]]
+Epoch 3 : accuracy 0.896551724137931, F1-score 0.9387755102040817, cost 26.600904688239098, confusion matrix [[ 3  1]
+ [ 2 23]]
+Epoch 4 : accuracy 0.896551724137931, F1-score 0.9387755102040817, cost 27.121111020445824, confusion matrix [[ 3  1]
+ [ 2 23]]
+Epoch 5 : accuracy 0.7931034482758621, F1-score 0.8695652173913043, cost 26.982016444206238, confusion matrix [[ 3  1]
+ [ 5 20]]
+Test dataset : accuracy 0.5, F1-score 0.6666666666666666, cost 13.816411226987839, confusion matrix [[0 0]
+ [4 4]]
+
